@@ -3,7 +3,9 @@
     white-space: nowrap;
     background-color: #00358c;
 }
-
+.foot{
+    background-color: blue;
+}
 .button{
     background-color: rgb(163, 162, 162); 
     color: blue;
