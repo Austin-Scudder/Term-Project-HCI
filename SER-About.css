@@ -1,15 +1,21 @@
-.ooh-chart > div {
-    width: 440px;
-    height: auto;
-    border: 1px solid #ccc;
-    font-size: 120% !important;
-    font-family: Helvetica, Arial, sans-serif;
-    padding-left: 15px;
+.navbar {
+    width: 100%;
+    white-space: nowrap;
+    background-color: #00358c;
 }
-
 .foot{
     background-color: blue;
 }
-body{
-    background-color: blue;
+.button{
+    background-color: rgb(163, 162, 162); 
+    color: blue;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 12px; 
+}
+.container-fluid{
+    border-bottom: 10px; 
 }
