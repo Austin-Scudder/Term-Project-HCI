@@ -1,17 +1,50 @@
-.navbar {
+#navbar {
+    overflow: hidden;
+    background-color:  #0C2340;
     width: 100%;
     white-space: nowrap;
-    background-color: #00358c;
+    z-index: 500;
+  }
+#navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+#navbar a:hover {
+    background-color: #ddd;
+    color: #00358c;
+  }
+.active {
+    background-color:rgb(163, 162, 162);
+    color: black;
+  }
+.footer{
+    background-color:#0C2340;
 }
-.foot{
-    background-color: blue;
+.col-md-1{
+    
 }
+.Logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.header{
+    background-image: url("/Pictures/Binary-Background.jpg");
+    height: 100px;
+}
+.right {
+    float: right;
+  }
 .button{
     background-color: rgb(163, 162, 162); 
     color: blue;
     padding: 15px 32px;
     text-align: center;
-    text-decoration: none;
     display: inline-block;
     font-size: 16px;
     border-radius: 12px; 
@@ -19,3 +52,12 @@
 .container-fluid{
     border-bottom: 10px; 
 }
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  .sticky + .content {
+    padding-top: 60px;
+  }
