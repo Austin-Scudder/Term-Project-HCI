@@ -40,6 +40,11 @@
 .footer-links li{
     display: inline;
 }
+.heading{
+    text-align: center;
+   color:white ; 
+   font-family: Georgia, 'Times New Roman', Times, serif;
+}
 .footer-links li a:hover{
     background-color:rgb(52, 91, 139);
 }
@@ -49,7 +54,10 @@
     padding: 16px;
     text-decoration: none;
 }
-.col-md-1{
+img{
+    Display: block;
+    margin-left: auto;
+    margin-right: auto;
     
 }
 .table {
@@ -62,7 +70,7 @@
     margin-right: auto;
 }
 .header{
-    background-image: url("/Pictures/Binary-Background.jpg");
+    background-image: url("/Pictures/Mac_Plaid.jpg");
     height: 100px;
 }
 .right {
