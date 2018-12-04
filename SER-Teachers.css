@@ -62,7 +62,7 @@
     margin-right: auto;
 }
 .header{
-    background-image: url("/Pictures/Binary-Background.jpg");
+    background-image: url("/Pictures/Mac_Plaid.jpg");
     height: 100px;
 }
 .right {
@@ -71,6 +71,11 @@
 
 a:visited {
     /*color: yellow;*/
+}
+.heading{
+    text-align: center;
+   color:white ; 
+   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .button{
     background-color: rgb(163, 162, 162); 
