@@ -5,6 +5,10 @@
     white-space: nowrap;
     z-index: 500;
   }
+  .image-stuff{
+      display: block;
+      margin: auto;
+  }
 #navbar a {
     float: left;
     display: block;
@@ -17,7 +21,11 @@
   .search{
       float : right;
   }
-
+  .heading{
+    text-align: center;
+   color:white ; 
+   font-family: Georgia, 'Times New Roman', Times, serif;
+}
 #navbar a:hover {
     background-color: #ddd;
     color: #00358c;
@@ -40,11 +48,6 @@
 .footer-links li{
     display: inline;
 }
-.heading{
-    text-align: center;
-   color:white ; 
-   font-family: Georgia, 'Times New Roman', Times, serif;
-}
 .footer-links li a:hover{
     background-color:rgb(52, 91, 139);
 }
@@ -54,10 +57,7 @@
     padding: 16px;
     text-decoration: none;
 }
-img{
-    Display: block;
-    margin-left: auto;
-    margin-right: auto;
+.col-md-1{
     
 }
 .table {
